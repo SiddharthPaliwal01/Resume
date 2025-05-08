@@ -1,2 +1,2 @@
 # Resume: Siddharth Paliwal
-![](https://github.com/Vanshdugar/Resume/blob/main/resume.png)
+![](https://github.com/SiddharthPaliwal01/Resume/blob/main/resume.png)

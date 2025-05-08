@@ -1,0 +1,212 @@
+%-------------------------
+% Resume in Latex
+% Author : Siddharth Paliwal
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Siddharth Paliwal} \\ \vspace{1pt}
+    \small 91+ 7014206483 $|$ \href{mailto:paliwalsiddharth4@gmail.com}{\underline{paliwalsiddharth4@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/siddharthpaliwal01/}{\underline{linkedin.com/in/siddharthpaliwal01/}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Vellore Institute of Technology }{Bhopal, India }
+      {Integrated M.Tech In Artificial Intelligence}{August 2021 - August 2026 }
+    \resumeSubheading
+      {St. Anne’s Senior Secondary School (CBSE) }{Jodhpur, India }
+      {Intermediate (Class XII) }{July 2020 - May 2021}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Artificial Intelligence Research Intern}{October 2024 -- December 2024}
+      {Defence Research and Development Organisation (DRDO)}{DLJ, Jodhpur}
+      \resumeItemListStart
+        \resumeItem{Tasked with generating realistic Indian facial images using GANs to augment sensitive datasets and explore AI applications in synthetic image generation for defense use cases.}
+        \resumeItem{Used StyleGAN3 with both pre-trained and custom models; curated and preprocessed an Indian face dataset; implemented and trained GANs using TensorFlow and PyTorch}
+        \resumeItem{ Successfully generated diverse, high-quality facial images; proposed defense applications such as surveillance enhancement and simulation training with synthetic data.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Web Developer Intern}{January 2023 - March 2023}
+      {Humans of Chhattisgarh ( For One Media )}{Remote}
+      \resumeItemListStart
+        \resumeItem{Collaborated with a team of web developers to design and launch a website that showcases the organization's work and features regular blog posts, enhancing online presence and engagement}
+        \resumeItem{ Spearheaded the integration of multimedia features on the website, enhancing storytelling capabilities}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{ChatBook} $|$ \emph{ LLM Powered Assistant }}{February 2025 -- Present}
+          \resumeItemListStart
+            \resumeItem{ Built a real-time chat assistant that processes any uploaded book or document using the Gemini 2.0 Flash LLM, delivering answers up to 78\% faster than GPT-4o while maintaining high accuracy in natural language understanding. }
+            \resumeItem{It also uses ChromaDB as it is faster compared to conventional databases for the vector search task, and also used for efficient storage and retrieval of book content. }
+            \resumeItem{ Integrated LangChain framework with RAG to manage multi-turn conversations and improve the chatbot's ability to handle complex question flows.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{MediLink} $|$ \emph{ Doctor-Patient Connection Platform }}{December 2023 -- March 2024 }
+          \resumeItemListStart
+            \resumeItem{Co-built a web platform (with two teammates) that enables rural patients to schedule appointments and consult doctors via secure audio/video calls}
+            \resumeItem{Designed a user-friendly interface to streamline communication processes and reduce appointment scheduling time by 
+25\%. }
+            \resumeItem{Planned future partnerships with local organizations and healthcare workers to boost community engagement, introducing a tracking system to monitor impact and increase participation in health initiatives.}
+          \resumeItemListEnd
+        \resumeProjectHeading
+          {\textbf{AttendEase} $|$ \emph{AI Facial Recognition System }}{March 2023 -- August 2023 }
+          \resumeItemListStart
+            \resumeItem{Developed an AI-driven attendance system using Local Binary Patterns Histograms for facial recognition, cutting manual marking time by 30\% and offering a scalable solution for any institution. }
+            \resumeItem{Created a clean, OpenCV-powered interface for real-time video processing, delivering seamless user identification with 90\% accuracy. }
+          \resumeItemListEnd
+          
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, R, SQL, HTML/CSS} \\
+     \textbf{Database}{: Familiar with MySQL, MongoDB, ChromaDB, Pincone} \\
+     \textbf{AI/ML}{: TensorFlow, PyTorch, OpenCV, Hugging Face Transformer, GANs, LangChain} \\
+     \textbf{Developer Tools}{: Git, GitHub, Docker, Flutter, Figma, Canva, Linux} \\
+     \textbf{Certifications \& Training:}{ Applied Machine Learning in Python from University of Michigan (2023), Cloud Computing from IIT Kharagpur (2024), Generative AI with LLMs from AWS \& DeepLearning.AI(2025)  }
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
+

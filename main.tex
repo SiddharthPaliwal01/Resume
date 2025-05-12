@@ -7,6 +7,7 @@
 
 \documentclass[letterpaper,11pt]{article}
 
+
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
@@ -19,6 +20,13 @@
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \input{glyphtounicode}
+
+% Hyperref setup for ATS-friendly links
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  urlcolor=black
+}
 
 
 %----------FONT OPTIONS----------
@@ -99,6 +107,7 @@
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
+
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -113,8 +122,9 @@
 
 \begin{center}
     \textbf{\Huge \scshape Siddharth Paliwal} \\ \vspace{1pt}
-    \small +917014206483 $|$ \href{mailto:paliwalsiddharth4@gmail.com}{\underline{paliwalsiddharth4@gmail.com}} $|$ 
-    \href{https://www.linkedin.com/in/siddharthpaliwal01/}{\underline{linkedin.com/in/siddharthpaliwal01/}}
+    \small +91 7014206483 $|$ \href{mailto:paliwalsiddharth4@gmail.com}{{paliwalsiddharth4@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/siddharthpaliwal01/}{{Linkedin- Siddharthpaliwal01}} $|$
+    \href{https://github.com/SiddharthPaliwal01}{{Github- SiddharthPaliwal01}}
 \end{center}
 
 
@@ -122,25 +132,27 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Vellore Institute of Technology }{Bhopal, India }
-      {Integrated M.Tech In Artificial Intelligence}{August 2021 - August 2026 }
+      {Vellore Institute of Technology}{Bhopal, India}
+      {Integrated M.Tech In Artificial Intelligence (CGPA: 7.65/10)}{August 2021 - August 2026}
     \resumeSubheading
-      {St. Anne’s Senior Secondary School (CBSE) }{Jodhpur, India }
-      {Intermediate (Class XII) }{July 2020 - May 2021}
+      {St. Anne's Senior Secondary School (CBSE)}{Jodhpur, India}
+      {Intermediate (Class XII) (74.8\%)}{July 2020 - May 2021}
+    \resumeSubheading
+      {St. Anne's Senior Secondary School (CBSE)}{Jodhpur, India}
+      {Matriculation (Class X) (80.8\%)}{April 2018 - March 2019}
   \resumeSubHeadingListEnd
 
 
 %-----------EXPERIENCE-----------
-\section{Experience}
+\section{Work Experience}
   \resumeSubHeadingListStart
 
     \resumeSubheading
       {Artificial Intelligence Research Intern}{October 2024 -- December 2024}
       {Defence Research and Development Organisation (DRDO)}{DLJ, Jodhpur}
       \resumeItemListStart
-        \resumeItem{Tasked with generating realistic Indian facial images using GANs to augment sensitive datasets and explore AI applications in synthetic image generation for defense use cases.}
-        \resumeItem{Used StyleGAN3 with both pre-trained and custom models; curated and preprocessed an Indian face dataset; implemented and trained GANs using TensorFlow and PyTorch}
-        \resumeItem{ Successfully generated diverse, high-quality facial images; proposed defense applications such as surveillance enhancement and simulation training with synthetic data.}
+        \resumeItem{Generated realistic Indian facial images using GANs, leveraging deep learning frameworks like PyTorch and TensorFlow, to augment sensitive datasets for defense applications in synthetic imagery, enhancing computer vision capabilities.}
+        \resumeItem{ Delivered high-quality synthetic facial images for surveillance enhancement and simulation training applications.}
       \resumeItemListEnd
       
 % -----------Multiple Positions Heading-----------
@@ -157,8 +169,8 @@
       {Web Developer Intern}{January 2023 - March 2023}
       {Humans of Chhattisgarh ( For One Media )}{Remote}
       \resumeItemListStart
-        \resumeItem{Collaborated with a team of web developers to design and launch a website that showcases the organization's work and features regular blog posts, enhancing online presence and engagement}
-        \resumeItem{ Spearheaded the integration of multimedia features on the website, enhancing storytelling capabilities}
+        \resumeItem{Collaborated with a team of web developers to design and launch a website that showcases the organisation's work and features regular blog posts, enhancing online presence and engagement}
+        \resumeItem{ Integrated multimedia features into the website, improving storytelling and user engagement.}
     \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -168,14 +180,14 @@
 \section{Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{ChatBook} $|$ \emph{ LLM Powered Assistant }}{February 2025 -- Present}
+          {\textbf{ChatBook} $|$ \emph{ LLM Powered Assistant }}{February 2025 }
           \resumeItemListStart
-            \resumeItem{ Built a real-time chat assistant that processes any uploaded book or document using the Gemini 2.0 Flash LLM, delivering answers up to 78\% faster than GPT-4o while maintaining high accuracy in natural language understanding. }
+            \resumeItem{ Built a real-time chat assistant that processes any uploaded book or document 1. Header Formatting and Contact Information }
             \resumeItem{It also uses ChromaDB as it is faster compared to conventional databases for the vector search task, and also used for efficient storage and retrieval of book content. }
-            \resumeItem{ Integrated LangChain framework with RAG to manage multi-turn conversations and improve the chatbot's ability to handle complex question flows.}
+            \resumeItem{ Integrated LangChain with RAG to manage multi-turn conversations and complex question flows}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{MediLink} $|$ \emph{ Doctor-Patient Connection Platform }}{December 2023 -- March 2024 }
+          {\textbf{MediLink} $|$ \emph{ Doctor-Patient Connection Platform }}{May 2024 }
           \resumeItemListStart
             \resumeItem{Co-built a web platform (with two teammates) that enables rural patients to schedule appointments and consult doctors via secure audio/video calls}
             \resumeItem{Designed a user-friendly interface to streamline communication processes and reduce appointment scheduling time by 
@@ -183,30 +195,39 @@
             \resumeItem{Planned future partnerships with local organizations and healthcare workers to boost community engagement, introducing a tracking system to monitor impact and increase participation in health initiatives.}
           \resumeItemListEnd
         \resumeProjectHeading
-          {\textbf{AttendEase} $|$ \emph{AI Facial Recognition System }}{March 2023 -- August 2023 }
+          {\textbf{AttendEase} $|$ \emph{AI Facial Recognition System }}{March 2023 }
           \resumeItemListStart
             \resumeItem{Developed an AI-driven attendance system using Local Binary Patterns Histograms for facial recognition, cutting manual marking time by 30\% and offering a scalable solution for any institution. }
-            \resumeItem{Created a clean, OpenCV-powered interface for real-time video processing, delivering seamless user identification with 90\% accuracy. }
+            \resumeItem{Created an OpenCV-powered interface for real-time video processing with 90\% accuracy. }
           \resumeItemListEnd
           
     \resumeSubHeadingListEnd
 
 
 
-%
 %-----------PROGRAMMING SKILLS-----------
 \section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in]
+    \item \small{
+        \textbf{Languages}: Java, Python, R, SQL, HTML/CSS \\
+        \textbf{Database}: MySQL, MongoDB, ChromaDB, Pinecone \\
+        \textbf{AI/ML}: TensorFlow, PyTorch, OpenCV, Hugging Face Transformers, GANs, LangChain \\
+        \textbf{Developer Tools}: Git, GitHub, Docker, Blender, Figma, Canva, Linux
+    }
+\end{itemize}
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Java, Python, R, SQL, HTML/CSS} \\
-     \textbf{Database}{: Familiar with MySQL, MongoDB, ChromaDB, Pincone} \\
-     \textbf{AI/ML}{: TensorFlow, PyTorch, OpenCV, Hugging Face Transformer, GANs, LangChain} \\
-     \textbf{Developer Tools}{: Git, GitHub, Docker, Flutter, Figma, Canva, Linux} \\
-     \textbf{Certifications \& Training:}{ Applied Machine Learning in Python from University of Michigan (2023), Cloud Computing from IIT Kharagpur (2024), Generative AI with LLMs from AWS \& DeepLearning.AI(2025)  }
+       Applied Machine Learning in Python, University of Michigan (2023) \\
+       Cloud Computing, IIT Kharagpur (2024) \\
+       Docker Foundations Professional Certificate, Docker (2025) \\
+       Generative AI with LLMs, AWS \& DeepLearning.AI (2025)
+       
     }}
  \end{itemize}
 
-
+\end{document}
 %-------------------------------------------
 \end{document}
-
